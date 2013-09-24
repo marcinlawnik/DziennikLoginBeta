@@ -2,7 +2,7 @@
 <html lang="pl">
     <head>
         <meta charset="utf-8">
-        <title>DziennikLogin - Strona Główna</title>
+        <title>DziennikLogin - Rejestracja do bety</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
         <meta name="author" content="">
@@ -55,11 +55,11 @@
         <div class="container-narrow">
 
             <div class="masthead">
-                <ul class="nav nav-pills pull-right">
-                    <li class="active"><a href="index.php">Strona główna</a></li>
-                    <li><a href="userPanel">Panel użytkownika</a></li>
-                    <li><a href="contact.php">Kontakt</a></li>
-                </ul>
+                <!--<ul class="nav nav-pills pull-right">-->
+                    <!--<li class="active"><a href="index.php">Strona główna</a></li>-->
+                    <!--<li><a href="userPanel">Panel użytkownika</a></li>-->
+                    <!--<li><a href="contact.php">Kontakt</a></li>-->
+                <!--</ul>-->
                 <h3 class="muted">DziennikLogin</h3>
             </div>
 
@@ -67,9 +67,10 @@
 
             <div class="jumbotron">
                 <h1>Nie masz czasu na sprawdzanie ocen?</h1>
-                <p class="lead">DziennikLogin ułatwi Tobie życie. Nasz system wyśle do Ciebie oceny, które zostały uzyskane w danym okresie czasu. Rozpocznij już teraz.</p>
-                <a class="btn btn-large btn-success" href="userPanel/userRegister.php">Załóż konto</a> <small class="or">lub</small>
-                <a class="btn btn-large btn-primary" href="userPanel/userLogin.php">Zaloguj się</a>
+                <p class="lead">DziennikLogin ułatwi Tobie życie. Nasz system wyśle do Ciebie emailem oceny, które zostały uzyskane w danym okresie czasu. Rozpocznij już teraz.</p>
+                <a class="btn btn-large btn-success" href="joinBeta.php">Dołącz do bety</a> 
+                <!--<small class="or">lub</small>-->
+                <!--<a class="btn btn-large btn-primary" href="userPanel/userLogin.php">Zaloguj się</a>-->
             </div>
 
             <hr>
