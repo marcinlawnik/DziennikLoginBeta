@@ -110,13 +110,13 @@ if (isset($_POST['isSent']) && $_POST['isSent'] == 'yes') {//check if form has b
             $stmt2->execute();
             
             //tabela reportJobs
-            $stmt3 = $pdo->prepare('INSERT INTO reportJobs VALUES (42,:userId,DAILY, :userEmail, CHILD)');
+            $stmt3 = $pdo->prepare('INSERT INTO reportjobs VALUES (42,:userId,DAILY, :userEmail, CHILD)');
             $stmt3->bindParam(':userId', $userId);
             $stmt3->bindParam(':userEmail', $_POST['email']);
             //$stmt->bindParam(':registerPassword', $registerPasswordEncrypted);
             $stmt3->execute();
             
-            $registrationErrors .= 'Zarejestrowano poprawnie. Wkrótce otrzymasz pierwszy (DUŻY, ponieważ wyślemy wszystkie aktualne oceny od razu) e-mail z ocenami.';
+            $registrationErrors = 'Zarejestrowano poprawnie. Wkrótce otrzymasz pierwszy (DUŻY, ponieważ wyślemy wszystkie aktualne oceny od razu) e-mail z ocenami.';
             
             
         } catch (PDOException $e) {
