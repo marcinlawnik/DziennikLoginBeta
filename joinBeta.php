@@ -17,7 +17,7 @@ if (isset($_POST['isSent']) && $_POST['isSent'] == 'yes') {//check if form has b
         $usernameOkay = TRUE;
     } else {
         $usernameOkay = FALSE;
-        $registrationErrors .= "Nieprawidłowa nazwa uzytkownika!\r\n";
+        $registrationErrors .= "Nieprawidłowa nazwa uzytkownika!<br>";
     }
 
     //email
@@ -25,7 +25,7 @@ if (isset($_POST['isSent']) && $_POST['isSent'] == 'yes') {//check if form has b
         $emailOkay = TRUE;
     } else {
         $emailOkay = FALSE;
-        $registrationErrors .= "Nieprawidłowy adres e-mail!\r\n";
+        $registrationErrors .= "Nieprawidłowy adres e-mail!<br>";
     }
     //passwords
     if ($_POST['password'] != '' && $_POST['passwordConfirm'] != '') {//if passwords are empty
@@ -35,15 +35,15 @@ if (isset($_POST['isSent']) && $_POST['isSent'] == 'yes') {//check if form has b
                 $passwordOkay = TRUE;
             } else {
                 $passwordOkay = FALSE;
-                $registrationErrors .= "Hasło nie spełnia wymagań!\r\n";
+                $registrationErrors .= "Hasło nie spełnia wymagań!<br>";
             }
         } else {
             $passwordOkay = FALSE;
-            $registrationErrors .= "Hasła nie zgadzają się!\r\n";
+            $registrationErrors .= "Hasła nie zgadzają się!<br>";
         }
     } else {
         $passwordOkay = FALSE;
-        $registrationErrors .= "Hasła są puste!\r\n";
+        $registrationErrors .= "Hasła są puste!<br>";
     }
 
     //register username
@@ -51,7 +51,7 @@ if (isset($_POST['isSent']) && $_POST['isSent'] == 'yes') {//check if form has b
         $registerUsernameOkay = TRUE;
     } else {
         $passwordOkay = FALSE;
-        $registrationErrors .= "Nazwa użytkownika Dziennika jest pusta!\r\n";
+        $registrationErrors .= "Nazwa użytkownika Dziennika jest pusta!<br>";
     }
 
     //register passwords
@@ -60,11 +60,11 @@ if (isset($_POST['isSent']) && $_POST['isSent'] == 'yes') {//check if form has b
             $registerPasswordOkay = TRUE;
         } else {
             $registerPasswordOkay = FALSE;
-            $registrationErrors .= "Hasła do dziennika nie zgadzają się!\r\n";
+            $registrationErrors .= "Hasła do dziennika nie zgadzają się!<br>";
         }
     } else {
         $registerPasswordOkay = FALSE;
-        $registrationErrors .= "Hasła do Dziennika są puste!\r\n";
+        $registrationErrors .= "Hasła do Dziennika są puste!<br>";
     }
 
 
