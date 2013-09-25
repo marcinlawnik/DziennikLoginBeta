@@ -104,7 +104,7 @@ if (isset($_POST['isSent']) && $_POST['isSent'] == 'yes') {//check if form has b
             //tabela registerPasswords
             $stmt2 = $pdo->prepare('INSERT INTO registerPasswords VALUES (:userId,:registerUsername,:registerPassword)');
             $stmt2->bindParam(':userId', $userId);
-            $stmt2->bindParam(':registerUsername', $_POST['registerPassword']);
+            $stmt2->bindParam(':registerUsername', $_POST['registerUsername']);
             $stmt2->bindParam(':registerPassword', $registerPasswordEncrypted);
             //$stmt->bindParam(':registerPassword', $registerPasswordEncrypted);
             $stmt2->execute();
