@@ -61,7 +61,7 @@
                     <!--<li><a href="userPanel">Panel użytkownika</a></li>-->
                     <!--<li><a href="contact.php">Kontakt</a></li>-->
                 <!--</ul>-->
-                <img src="logo_small.png" style="float: left; margin-right: : 20px;"></img><h3 class="muted"> DziennikLogin</h3>
+                <img src="logo_small.png" style="float: left; margin-right: 20px;"></img><h3 class="muted"> DziennikLogin</h3>
             </div>
 
             <hr>
