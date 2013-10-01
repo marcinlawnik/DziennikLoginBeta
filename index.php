@@ -54,14 +54,14 @@
     <body>
         <div class="container-narrow">
 
-            <div class="">
+            <div class="masthead">
                 <!--masthead-->
                 <!--<ul class="nav nav-pills pull-right">-->
                     <!--<li class="active"><a href="index.php">Strona główna</a></li>-->
                     <!--<li><a href="userPanel">Panel użytkownika</a></li>-->
                     <!--<li><a href="contact.php">Kontakt</a></li>-->
                 <!--</ul>-->
-                <img src="logo_small.png"></img><h3 class="muted">DziennikLogin</h3>
+                <img src="logo_small.png" style="float: left"></img><h3 class="muted">DziennikLogin</h3>
             </div>
 
             <hr>
