@@ -222,7 +222,7 @@ if (isset($_POST['isSent']) && $_POST['isSent'] == 'yes') {//check if form has b
 
             <hr>
             <div class="container-fluid">
-            <form class="form-horizontal" action='joinBeta.php' method="POST" role="form">
+            <form action='joinBeta.php' method="POST" role="form">
                 <fieldset>
                     <div id="legend">
                         <legend class="">Rejestracja do bety</legend>
