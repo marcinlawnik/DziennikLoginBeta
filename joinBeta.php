@@ -221,6 +221,7 @@ if (isset($_POST['isSent']) && $_POST['isSent'] == 'yes') {//check if form has b
             </div>
 
             <hr>
+            <div class="container-fluid">
             <form class="form-horizontal" action='joinBeta.php' method="POST" role="form">
                 <fieldset>
                     <div id="legend">
@@ -300,6 +301,7 @@ if (isset($_POST['isSent']) && $_POST['isSent'] == 'yes') {//check if form has b
                     </div>
                 </fieldset>
             </form>
+            </div>
             <hr>
             <div class="footer">
                 <p>&copy; Marcin Ławniczak 2013-2014</p>
