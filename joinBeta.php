@@ -17,7 +17,7 @@ if (isset($_POST['isSent']) && $_POST['isSent'] == 'yes') {//check if form has b
         $usernameOkay = TRUE;
     } else {
         $usernameOkay = FALSE;
-        $registrationErrors .= "Nieprawidłowa nazwa uzytkownika!<br>";
+        $registrationErrors .= "Nieprawidłowa nazwa użytkownika!<br>";
     }
 
     //email
@@ -139,7 +139,7 @@ if (isset($_POST['isSent']) && $_POST['isSent'] == 'yes') {//check if form has b
         <meta name="description" content="">
         <meta name="author" content="">
         <!-- Le styles -->
-        <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet"  media="screen">
+        <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">" rel="stylesheet"  media="screen">
         <style type="text/css">
             body {
                 padding-top: 20px;
