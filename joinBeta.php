@@ -181,70 +181,70 @@ if (isset($_POST['isSent']) && $_POST['isSent'] == 'yes') {//check if form has b
                         echo $registrationErrors;
                     } ?>
                     </p>
-                    <div class="control-group">
+                    <div class="form-group">
                         <!-- Username -->
                         <label class="control-label" for="username">Nazwa użytkownika</label>
-                        <div class="controls">
+                        <div class="form-control">
                             <input type="text" id="username" name="username" placeholder="" class="input-xlarge">
                             <p class="help-block">Nazwa użytkownika może zawierać małe i wielkie litery oraz cyfry.</p>
                         </div>
                     </div>
 
-                    <div class="control-group">
+                    <div class="form-group">
                         <!-- E-mail -->
                         <label class="control-label" for="email">E-mail</label>
-                        <div class="controls">
+                        <div class="form-control">
                             <input type="text" id="email" name="email" placeholder="" class="input-xlarge">
                             <p class="help-block">Podaj swój E-mail (Na niego będą wysyłane oceny)</p>
                         </div>
                     </div>
 
-                    <div class="control-group">
+                    <div class="form-group">
                         <!-- Password-->
                         <label class="control-label" for="password">Hasło</label>
-                        <div class="controls">
+                        <div class="form-control">
                             <input type="password" id="password" name="password" placeholder="" class="input-xlarge">
                             <p class="help-block">Hasło powinno mieć co najmniej 8 znaków.</p>
                         </div>
                     </div>
 
-                    <div class="control-group">
+                    <div class="form-group">
                         <!-- Password -->
                         <label class="control-label"  for="passwordConfirm">Potwierdź Hasło</label>
-                        <div class="controls">
+                        <div class="form-control">
                             <input type="password" id="passwordConfirm" name="passwordConfirm" placeholder="" class="input-xlarge">
                             <p class="help-block">Proszę potwierdź hasło</p>
                         </div>
                     </div>
-                    <div class="control-group">
+                    <div class="form-group">
                         <!-- Username -->
                         <label class="control-label" for="registerUsername">Nazwa użytkownika Dziennika</label>
-                        <div class="controls">
+                        <div class="form-control">
                             <input type="text" id="registerUsername" name="registerUsername" placeholder="" class="input-xlarge">
                             <p class="help-block">Używana do logowania w Dzienniku Elektronicznym szkoły.</p>
                         </div>
                     </div>
-                    <div class="control-group">
+                    <div class="form-group">
                         <!-- Password-->
                         <label class="control-label" for="registerPassword">Hasło do Dziennika</label>
-                        <div class="controls">
+                        <div class="form-control">
                             <input type="password" id="registerPassword" name="registerPassword" placeholder="" class="input-xlarge">
                             <p class="help-block">Używane do logowania w Dzienniku Elektronicznym szkoły.</p>
                         </div>
                     </div>
 
-                    <div class="control-group">
+                    <div class="form-group">
                         <!-- Password -->
                         <label class="control-label"  for="registerPasswordConfirm">Potwierdź Hasło do Dziennika</label>
-                        <div class="controls">
+                        <div class="form-control">
                             <input type="password" id="registerPasswordConfirm" name="registerPasswordConfirm" placeholder="" class="input-xlarge">
                             <p class="help-block">Proszę potwierdź hasło do logowania w Dzienniku Elektronicznym szkoły.</p>
                         </div>
                     </div>
                     <input type="hidden" id="isSent" name ="isSent" value="yes">
-                    <div class="control-group">
+                    <div class="form-group">
                         <!-- Button -->
-                        <div class="controls">
+                        <div class="form-control">
                             <button class="btn btn-success">Dołacz do bety</button>
                         </div>
                     </div>
