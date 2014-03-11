@@ -116,7 +116,7 @@ if (isset($_POST['isSent']) && $_POST['isSent'] == 'yes') {//check if form has b
         $registerPasswordOkay = FALSE;
         $registrationErrors .= "Hasła do Dziennika są puste!<br>";
     }
-    $isSuccessful = 'warning';
+    $isSuccessful = 'danger';
 
 
     if ($usernameOkay && $passwordOkay && $emailOkay && $registerUsernameOkay && $registerPasswordOkay) {//can write to database && $registerUsernameOkay
@@ -246,7 +246,7 @@ if (isset($_POST['isSent']) && $_POST['isSent'] == 'yes') {//check if form has b
                         <label for="email" class="control-label">E-mail</label>
                         <div>
                             <input class="form-control" type="text" id="email" name="email" placeholder="" value="<?php echo $_POST['email'];?>" class="input-xlarge">
-                            <p class="help-block">Podaj swój E-mail (Na niego będą wysyłane oceny)</p>
+                            <p class="help-block">Podaj swój E-mail (Na niego będą wysyłane oceny).</p>
                         </div>
                     </div>
 
