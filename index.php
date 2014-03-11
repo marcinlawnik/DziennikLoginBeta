@@ -67,7 +67,7 @@
 
             <div class="jumbotron">
                 <h1>Nie masz czasu na sprawdzanie ocen?</h1>
-                <p class="lead">DziennikLogin ułatwi Tobie życie. Nasz system wyśle do Ciebie emailem oceny, które zostały uzyskane w danym okresie czasu.<br> Rozpocznij już teraz.</p>
+                <p class="lead">DziennikLogin ułatwi Ci życie! Wyśle do Ciebie emailem oceny w ciągu 5 minut od wpisania.<br> Rozpocznij już teraz.</p>
                 <a class="btn btn-large btn-success" href="joinBeta.php">Dołącz do bety</a> 
                 <!--<small class="or">lub</small>-->
                 <!--<a class="btn btn-large btn-primary" href="userPanel/userLogin.php">Zaloguj się</a>-->
@@ -76,7 +76,7 @@
             <hr>
 
             <div class="row-fluid marketing">
-                <div class="span6">-->
+                <div class="span6">
                     <h4>Łatwość!</h4>
                     <p></p>
 
