@@ -183,7 +183,7 @@ if (isset($_POST['isSent']) && $_POST['isSent'] == 'yes') {//check if form has b
                     </p>
                     <div class="form-group">
                         <!-- Username -->
-                        <label class="control-label" for="username">Nazwa użytkownika</label>
+                        <label for="username">Nazwa użytkownika</label>
                         <div class="form-control">
                             <input type="text" id="username" name="username" placeholder="" class="input-xlarge">
                             <p class="help-block">Nazwa użytkownika może zawierać małe i wielkie litery oraz cyfry.</p>
@@ -192,7 +192,7 @@ if (isset($_POST['isSent']) && $_POST['isSent'] == 'yes') {//check if form has b
 
                     <div class="form-group">
                         <!-- E-mail -->
-                        <label class="control-label" for="email">E-mail</label>
+                        <label for="email">E-mail</label>
                         <div class="form-control">
                             <input type="text" id="email" name="email" placeholder="" class="input-xlarge">
                             <p class="help-block">Podaj swój E-mail (Na niego będą wysyłane oceny)</p>
@@ -201,7 +201,7 @@ if (isset($_POST['isSent']) && $_POST['isSent'] == 'yes') {//check if form has b
 
                     <div class="form-group">
                         <!-- Password-->
-                        <label class="control-label" for="password">Hasło</label>
+                        <label for="password">Hasło</label>
                         <div class="form-control">
                             <input type="password" id="password" name="password" placeholder="" class="input-xlarge">
                             <p class="help-block">Hasło powinno mieć co najmniej 8 znaków.</p>
@@ -210,7 +210,7 @@ if (isset($_POST['isSent']) && $_POST['isSent'] == 'yes') {//check if form has b
 
                     <div class="form-group">
                         <!-- Password -->
-                        <label class="control-label"  for="passwordConfirm">Potwierdź Hasło</label>
+                        <label for="passwordConfirm">Potwierdź Hasło</label>
                         <div class="form-control">
                             <input type="password" id="passwordConfirm" name="passwordConfirm" placeholder="" class="input-xlarge">
                             <p class="help-block">Proszę potwierdź hasło</p>
@@ -218,7 +218,7 @@ if (isset($_POST['isSent']) && $_POST['isSent'] == 'yes') {//check if form has b
                     </div>
                     <div class="form-group">
                         <!-- Username -->
-                        <label class="control-label" for="registerUsername">Nazwa użytkownika Dziennika</label>
+                        <label for="registerUsername">Nazwa użytkownika Dziennika</label>
                         <div class="form-control">
                             <input type="text" id="registerUsername" name="registerUsername" placeholder="" class="input-xlarge">
                             <p class="help-block">Używana do logowania w Dzienniku Elektronicznym szkoły.</p>
@@ -226,7 +226,7 @@ if (isset($_POST['isSent']) && $_POST['isSent'] == 'yes') {//check if form has b
                     </div>
                     <div class="form-group">
                         <!-- Password-->
-                        <label class="control-label" for="registerPassword">Hasło do Dziennika</label>
+                        <label for="registerPassword">Hasło do Dziennika</label>
                         <div class="form-control">
                             <input type="password" id="registerPassword" name="registerPassword" placeholder="" class="input-xlarge">
                             <p class="help-block">Używane do logowania w Dzienniku Elektronicznym szkoły.</p>
@@ -235,7 +235,7 @@ if (isset($_POST['isSent']) && $_POST['isSent'] == 'yes') {//check if form has b
 
                     <div class="form-group">
                         <!-- Password -->
-                        <label class="control-label"  for="registerPasswordConfirm">Potwierdź Hasło do Dziennika</label>
+                        <label for="registerPasswordConfirm">Potwierdź Hasło do Dziennika</label>
                         <div class="form-control">
                             <input type="password" id="registerPasswordConfirm" name="registerPasswordConfirm" placeholder="" class="input-xlarge">
                             <p class="help-block">Proszę potwierdź hasło do logowania w Dzienniku Elektronicznym szkoły.</p>
