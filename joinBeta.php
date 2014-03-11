@@ -60,13 +60,13 @@ if (isset($_POST['isSent']) && $_POST['isSent'] == 'yes') {//check if form has b
             $registerPasswordOkay = TRUE;
         } else {
             $registerPasswordOkay = FALSE;
-            $registrationErrors .= "Hasła do dziennika nie zgadzają się!<br>";
+            $registrationErrors .= "Hasła do Dziennika nie zgadzają się!<br>";
         }
     } else {
         $registerPasswordOkay = FALSE;
         $registrationErrors .= "Hasła do Dziennika są puste!<br>";
     }
-
+    $isSuccessful = 'warning';
 
 
     if ($usernameOkay && $passwordOkay && $emailOkay && $registerUsernameOkay && $registerPasswordOkay) {//can write to database && $registerUsernameOkay
@@ -77,6 +77,7 @@ if (isset($_POST['isSent']) && $_POST['isSent'] == 'yes') {//check if form has b
                 PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'
             ));
             $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+            $pdo->beginTransaction();
         } catch (PDOException $e) {
             return 'Błąd bazy danych:' . $e->getMessage();
         }
@@ -99,7 +100,7 @@ if (isset($_POST['isSent']) && $_POST['isSent'] == 'yes') {//check if form has b
             $stmt->bindParam(':userEmail', $_POST['email']);
             //$stmt->bindParam(':registerPassword', $registerPasswordEncrypted);
             $stmt->execute();
-            
+            $pdo->commit();
             $userId = $pdo->lastInsertId('user_id');
             //tabela registerPasswords
             $stmt2 = $pdo->prepare('INSERT INTO registerPasswords VALUES (:userId,:registerUsername,:registerPassword)');
@@ -115,12 +116,15 @@ if (isset($_POST['isSent']) && $_POST['isSent'] == 'yes') {//check if form has b
             $stmt3->bindParam(':userEmail', $_POST['email']);
             //$stmt->bindParam(':registerPassword', $registerPasswordEncrypted);
             $stmt3->execute();
+            $pdo->commit();
             
             $registrationErrors = 'Zarejestrowano poprawnie. Wkrótce otrzymasz pierwszy (DUŻY, ponieważ wyślemy wszystkie aktualne oceny od razu) e-mail z ocenami.';
-            
+            $isSuccessful = 'success';
             
         } catch (PDOException $e) {
             echo $e->getMessage();
+            $registrationErrors = 'Błąd bazy danych, powiadom administratora: marcin@lawniczak.me';
+            $pdo->rollBack();
         }
     }
 }
@@ -172,9 +176,11 @@ if (isset($_POST['isSent']) && $_POST['isSent'] == 'yes') {//check if form has b
                     <div id="legend">
                         <legend class="">Rejestracja do bety</legend>
                     </div>
+                    <p class="bg-<?php echo $isSuccessful; ?>">
                     <?php if (isSet($registrationErrors)) {
                         echo $registrationErrors;
                     } ?>
+                    </p>
                     <div class="control-group">
                         <!-- Username -->
                         <label class="control-label" for="username">Nazwa użytkownika</label>
