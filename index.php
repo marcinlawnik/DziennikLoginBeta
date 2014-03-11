@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
         <!-- Le styles -->
-        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" media="screen">
         <style type="text/css">
             body {
                 padding-top: 20px;
@@ -48,7 +48,6 @@
                 margin: 2em;
             }
         </style>
-        <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
     </head>
 
     <body>
@@ -76,29 +75,25 @@
 
             <hr>
 
-            <!--<div class="row-fluid marketing">-->
-                <!--<div class="span6">-->
-                    <!--<h4>Łatwość użycia</h4>-->
-                    <!--<p>Zarejestruj się raz, resztę zrobi system!</p>-->
+            <div class="row-fluid marketing">
+                <div class="span6">-->
+                    <h4>Łatwość!</h4>
+                    <p></p>
 
-                    <!--<h4>Subheading</h4>-->
-                    <!--<p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>-->
+                    <h4>Szybkość!</h4>
+                    <p></p>
+                    
+                </div>
 
-                    <!--<h4>Subheading</h4>-->
-                    <!--<p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>-->
-                <!--</div>-->
+                <div class="span6">
+                    <h4>Oszczędność czasu!</h4>
+                    <p></p>
 
-                <!--<div class="span6">-->
-                    <!--<h4>Subheading</h4>-->
-                    <!--<p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>-->
+                    <h4>Zawsze jesteś na bieżąco!</h4>
+                    <p></p>
 
-                    <!--<h4>Subheading</h4>-->
-                    <!--<p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>-->
-
-                    <!--<h4>Subheading</h4>-->
-                    <!--<p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>-->
-                <!--</div>-->
-            <!--</div>-->
+                </div>
+            </div>
 
             <!--<hr>-->
 
