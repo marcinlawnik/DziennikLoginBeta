@@ -67,8 +67,8 @@
 
             <div class="jumbotron">
                 <h1>Nie masz czasu na sprawdzanie ocen?</h1>
-                <p class="lead">DziennikLogin ułatwi Ci życie!</p><br>
-                <p> Wyśle do Ciebie emailem oceny w ciągu 5 minut od wpisania.<br> Rozpocznij teraz.</p>
+                <h4>DziennikLogin ułatwi Ci życie!</h4><br>
+                <p class="lead"> Wyśle do Ciebie mailem oceny w ciągu 5 minut od wpisania.<br> Rozpocznij teraz.</p>
                 <a class="btn btn-large btn-success" href="joinBeta.php">Dołącz do nas</a> 
                 <!--<small class="or">lub</small>-->
                 <!--<a class="btn btn-large btn-primary" href="userPanel/userLogin.php">Zaloguj się</a>-->
