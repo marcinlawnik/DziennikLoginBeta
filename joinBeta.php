@@ -172,8 +172,7 @@ if (isset($_POST['isSent']) && $_POST['isSent'] == 'yes') {//check if form has b
             $isSuccessful = 'success';
             
         } catch (PDOException $e) {
-            echo $e->getMessage();
-            $registrationErrors = 'Błąd bazy danych, powiadom administratora: marcin@lawniczak.me';
+            $registrationErrors = 'Błąd bazy danych, powiadom administratora: marcin@lawniczak.me i prześlij ten błąd: '.base64_encode($e->getMessage());
             $pdo->rollBack();
         }
     }
