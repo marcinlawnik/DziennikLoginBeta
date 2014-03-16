@@ -47,8 +47,9 @@
                 margin: 2em;
             }
             hr {
+                height: 2px;
                 margin: 2px 0;
-                background-color: #555;
+                background-color: #fff;
             }
         </style>
     </head>
