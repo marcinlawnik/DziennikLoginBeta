@@ -24,7 +24,7 @@
 
             /* Main marketing message and sign up button */
             .jumbotron {
-                margin: 60px 0;
+                margin: 40px 0;
                 text-align: center;
             }
             .jumbotron h1 {
