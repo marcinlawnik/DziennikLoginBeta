@@ -210,13 +210,9 @@ if (isset($_POST['isSent']) && $_POST['isSent'] == 'yes') {//check if form has b
     <body>
         <div class="container-narrow">
 
+
             <div class="masthead">
-                <!--<ul class="nav nav-pills pull-right">-->
-                    <!--<li><a href="../index.php">Strona główna</a></li>-->
-                    <!--<li><a href="../userPanel">Panel użytkownika</a></li>-->
-                    <!--<li><a href="../contact.php">Kontakt</a></li>-->
-                <!--</ul>-->
-                <img src="logo_small.png" style="float: left; margin-right: 20px;"></img><h3 class="muted">DziennikLogin</h3>
+                <h3 class="text-muted" style=""><img src="logo_small.png" style="margin-right: 20px;"> DziennikLogin</h3>
             </div>
 
             <hr>
