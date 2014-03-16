@@ -65,7 +65,7 @@
                 <a class="btn btn-lg btn-primary" href="http://dl.lawniczak.me">Zaloguj się</a>
             </div>
 
-            <div class="marketing row">
+            <!---<div class="marketing row">
                 <div class="col-sm-6 col-md-6">
                     <h4>Łatwość!</h4>
                     <p>Lorem ipsum</p>
@@ -83,7 +83,7 @@
                     <p>Lorem ipsum</p>
 
                 </div>
-            </div>
+            </div>-->
 
             <div class="footer">
                 <p>© Marcin Ławniczak 2013</p>
