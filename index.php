@@ -67,12 +67,11 @@
             <div class="jumbotron">
                 <h1>Nie masz czasu na sprawdzanie ocen?</h1>
                 <p class="lead">DziennikLogin ułatwi Ci życie!<br> Wyśle do Ciebie mailem oceny w ciągu 5 minut od wpisania.<br> Rozpocznij teraz.</p>
+                <br>
                 <a class="btn btn-success btn-lg" href="joinBeta.php">Dołącz do nas</a> 
                 <small class="or">lub</small>
                 <a class="btn btn-lg btn-primary" href="dl.lawniczak.me">Zaloguj się</a>
             </div>
-
-            <hr>
 
             <div class="marketing row">
                 <div class="col-sm-6 col-md-6">
