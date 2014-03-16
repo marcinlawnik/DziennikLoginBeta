@@ -52,8 +52,8 @@
     <body>
         <div class="container-narrow">
 
-            <div class="masthead" style="display: inline-block;">
-                <img src="logo_small.png" style="float: left; margin-right: 20px;"><h3 class="text-muted"> DziennikLogin</h3>
+            <div class="masthead">
+                <h3 class="text-muted"><img src="logo_small.png" style="float: left; margin-right: 20px;"> DziennikLogin</h3>
             </div>
 
             <div class="jumbotron">
