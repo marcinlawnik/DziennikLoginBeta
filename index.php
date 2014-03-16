@@ -53,7 +53,7 @@
         <div class="container-narrow">
 
             <div class="masthead">
-                <h3 class="text-muted" style="display:block;float:left;"><img src="logo_small.png" style="margin-right: 20px;"> DziennikLogin</h3>
+                <h3 class="text-muted" style="float:left;"><img src="logo_small.png" style="margin-right: 20px;"> DziennikLogin</h3>
             </div>
 
             <div class="jumbotron" style="float:clear;">
