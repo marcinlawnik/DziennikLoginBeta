@@ -53,7 +53,7 @@
     <body>
         <div class="container-narrow">
 
-            <div class="masthead">
+            <div class="bs-masthead">
                 <!--masthead-->
                 <!--<ul class="nav nav-pills pull-right">-->
                     <!--<li class="active"><a href="index.php">Strona główna</a></li>-->
