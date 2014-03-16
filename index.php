@@ -47,9 +47,7 @@
                 margin: 2em;
             }
             hr {
-                height: 2px;
                 margin: 2px 0;
-                background-color: #fff;
             }
         </style>
     </head>
@@ -65,9 +63,8 @@
                     <!--<li><a href="contact.php">Kontakt</a></li>-->
                 <!--</ul>-->
                 <img src="logo_small.png" style="float: left; margin-right: 20px;"><h3 class="text-muted"> DziennikLogin</h3>
+                <hr />
             </div>
-
-            <hr />
 
             <div class="jumbotron">
                 <h1>Nie masz czasu na sprawdzanie ocen?</h1>
@@ -98,9 +95,8 @@
                 </div>
             </div>
 
-            <hr />
-
             <div class="footer">
+                <hr />
                 <p>© Marcin Ławniczak 2013</p>
             </div>
 
