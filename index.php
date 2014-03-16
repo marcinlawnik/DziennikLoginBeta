@@ -46,6 +46,10 @@
             .or{
                 margin: 2em;
             }
+            hr {
+                margin: 2px 0;
+                background-color: #555;
+            }
         </style>
     </head>
 
@@ -70,7 +74,7 @@
                 <br>
                 <a class="btn btn-success btn-lg" href="joinBeta.php">Dołącz do nas</a> 
                 <small class="or">lub</small>
-                <a class="btn btn-lg btn-primary" href="dl.lawniczak.me">Zaloguj się</a>
+                <a class="btn btn-lg btn-primary" href="http://dl.lawniczak.me">Zaloguj się</a>
             </div>
 
             <div class="marketing row">
