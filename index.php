@@ -46,9 +46,6 @@
             .or{
                 margin: 2em;
             }
-            hr {
-                margin: 2px 0;
-            }
         </style>
     </head>
 
@@ -56,14 +53,7 @@
         <div class="container-narrow">
 
             <div class="masthead">
-                <!--masthead-->
-                <!--<ul class="nav nav-pills pull-right">-->
-                    <!--<li class="active"><a href="index.php">Strona główna</a></li>-->
-                    <!--<li><a href="userPanel">Panel użytkownika</a></li>-->
-                    <!--<li><a href="contact.php">Kontakt</a></li>-->
-                <!--</ul>-->
-                <img src="logo_small.png" style="float: left; margin-right: 20px;"><h3 class="text-muted"> DziennikLogin</h3>
-                <hr />
+                <img src="logo_small.png" style="float: left; margin-right: 20px;"><h3 class="text-muted" style="float: left;"> DziennikLogin</h3>
             </div>
 
             <div class="jumbotron">
@@ -96,7 +86,6 @@
             </div>
 
             <div class="footer">
-                <hr />
                 <p>© Marcin Ławniczak 2013</p>
             </div>
 
