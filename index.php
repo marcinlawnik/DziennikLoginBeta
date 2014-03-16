@@ -53,10 +53,10 @@
         <div class="container-narrow">
 
             <div class="masthead">
-                <h3 class="text-muted" style="float:left;"><img src="logo_small.png" style="margin-right: 20px;"> DziennikLogin</h3>
+                <h3 class="text-muted" style="display:inline;float:left;"><img src="logo_small.png" style="margin-right: 20px;"> DziennikLogin</h3>
             </div>
 
-            <div class="jumbotron">
+            <div class="jumbotron" style="float:clear;">
                 <h1>Nie masz czasu na sprawdzanie ocen?</h1>
                 <p class="lead">DziennikLogin ułatwi Ci życie!<br> Wyśle do Ciebie mailem oceny w ciągu 5 minut od wpisania.<br> Rozpocznij teraz.</p>
                 <br>
