@@ -1,6 +1,5 @@
-<!DOCTYPE html>
-<html lang="pl">
-    <head>
+<!doctype html>
+<html lang="pl"><head>
         <meta charset="utf-8">
         <title>DziennikLogin - Rejestracja do bety</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -60,7 +59,7 @@
                     <!--<li><a href="userPanel">Panel użytkownika</a></li>-->
                     <!--<li><a href="contact.php">Kontakt</a></li>-->
                 <!--</ul>-->
-                <img src="logo_small.png" style="float: left; margin-right: 20px;"></img><h3 class="text-muted"> DziennikLogin</h3>
+                <img src="logo_small.png" style="float: left; margin-right: 20px;"><h3 class="text-muted"> DziennikLogin</h3>
             </div>
 
             <hr>
@@ -69,15 +68,15 @@
                 <h1>Nie masz czasu na sprawdzanie ocen?</h1>
                 <h4>DziennikLogin ułatwi Ci życie!</h4><br>
                 <p class="lead"> Wyśle do Ciebie mailem oceny w ciągu 5 minut od wpisania.<br> Rozpocznij teraz.</p>
-                <a class="btn btn-large btn-success" href="joinBeta.php">Dołącz do nas</a> 
+                <a class="btn btn-success btn-lg" href="joinBeta.php">Dołącz do nas</a> 
                 <!--<small class="or">lub</small>-->
                 <!--<a class="btn btn-large btn-primary" href="userPanel/userLogin.php">Zaloguj się</a>-->
             </div>
 
             <hr>
 
-            <div class="row-fluid marketing">
-                <div class="span6">
+            <div class="marketing row">
+                <div class="col-sm-6 col-md-6">
                     <h4>Łatwość!</h4>
                     <p></p>
 
@@ -86,7 +85,7 @@
                     
                 </div>
 
-                <div class="span6">
+                <div class="col-sm-6 col-md-6">
                     <h4>Oszczędność czasu!</h4>
                     <p></p>
 
@@ -99,10 +98,10 @@
             <!--<hr>-->
 
             <div class="footer">
-                <p>&copy; Marcin Ławniczak 2013</p>
+                <p>© Marcin Ławniczak 2013</p>
             </div>
 
         </div> <!-- /container -->
 
-    </body>
-</html>
+    
+</body></html>
