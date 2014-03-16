@@ -62,7 +62,7 @@
                 <img src="logo_small.png" style="float: left; margin-right: 20px;"><h3 class="text-muted"> DziennikLogin</h3>
             </div>
 
-            <hr>
+            <hr />
 
             <div class="jumbotron">
                 <h1>Nie masz czasu na sprawdzanie ocen?</h1>
@@ -93,7 +93,7 @@
                 </div>
             </div>
 
-            <hr>
+            <hr />
 
             <div class="footer">
                 <p>© Marcin Ławniczak 2013</p>
