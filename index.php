@@ -66,11 +66,10 @@
 
             <div class="jumbotron">
                 <h1>Nie masz czasu na sprawdzanie ocen?</h1>
-                <h4>DziennikLogin ułatwi Ci życie!</h4><br>
-                <p class="lead"> Wyśle do Ciebie mailem oceny w ciągu 5 minut od wpisania.<br> Rozpocznij teraz.</p>
+                <p class="lead">DziennikLogin ułatwi Ci życie!<br> Wyśle do Ciebie mailem oceny w ciągu 5 minut od wpisania.<br> Rozpocznij teraz.</p>
                 <a class="btn btn-success btn-lg" href="joinBeta.php">Dołącz do nas</a> 
-                <!--<small class="or">lub</small>-->
-                <!--<a class="btn btn-large btn-primary" href="userPanel/userLogin.php">Zaloguj się</a>-->
+                <small class="or">lub</small>
+                <a class="btn btn-lg btn-primary" href="dl.lawniczak.me">Zaloguj się</a>
             </div>
 
             <hr>
@@ -78,24 +77,24 @@
             <div class="marketing row">
                 <div class="col-sm-6 col-md-6">
                     <h4>Łatwość!</h4>
-                    <p></p>
+                    <p>Lorem ipsum</p>
 
                     <h4>Szybkość!</h4>
-                    <p></p>
+                    <p>Lorem ipsum</p>
                     
                 </div>
 
                 <div class="col-sm-6 col-md-6">
                     <h4>Oszczędność czasu!</h4>
-                    <p></p>
+                    <p>Lorem ipsum</p>
 
                     <h4>Zawsze jesteś na bieżąco!</h4>
-                    <p></p>
+                    <p>Lorem ipsum</p>
 
                 </div>
             </div>
 
-            <!--<hr>-->
+            <hr>
 
             <div class="footer">
                 <p>© Marcin Ławniczak 2013</p>
