@@ -145,11 +145,11 @@ if (isset($_POST['isSent']) && $_POST['isSent'] == 'yes') {//check if form has b
         //check e-mail
         try {
             //tabela USERS
-            $stmt = $pdo->prepare('INSERT INTO users VALUES (NULL,:userName,:userPassword, :userEmail, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)');
+            $stmt = $pdo->prepare('INSERT INTO users VALUES (NULL,:userName,:userPassword, :userEmail, 1, NULL, NULL, NULL, NULL, NULL, NULL, now(), :userRegistrationIp)');
             $stmt->bindParam(':userName', $_POST['username']);
             $stmt->bindParam(':userPassword', $hashedPassword);
             $stmt->bindParam(':userEmail', $_POST['email']);
-            $stmt->bindParam('',);
+            $stmt->bindParam(':userRegistrationIp',$_SERVER['REMOTE_ADDR']);
             //$stmt->bindParam(':registerPassword', $registerPasswordEncrypted);
             $stmt->execute();
 
