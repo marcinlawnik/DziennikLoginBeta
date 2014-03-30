@@ -57,7 +57,7 @@ $db_host = $CONF['databaseHost'];
 $db_name = $CONF['databaseName'];
 $db_username = $CONF['databaseUsername'];
 $db_password = $CONF['databasePassword'];
-
+$isSuccessful = '';
 
 if (isset($_POST['isSent']) && $_POST['isSent'] == 'yes') {//check if form has been sent
     $registrationErrors = '';
