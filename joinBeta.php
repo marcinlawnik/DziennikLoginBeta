@@ -141,13 +141,15 @@ if (isset($_POST['isSent']) && $_POST['isSent'] == 'yes') {//check if form has b
         if (!openssl_public_encrypt($_POST['registerPassword'], $registerPasswordEncrypted, $publicKey))
             die('Failed to encrypt data');
         openssl_free_key($publicKey);
+        
         //check e-mail
         try {
             //tabela USERS
-            $stmt = $pdo->prepare('INSERT INTO users VALUES (NULL,:userName,:userPassword, :userEmail, 1, NULL, NULL, NULL)');
+            $stmt = $pdo->prepare('INSERT INTO users VALUES (NULL,:userName,:userPassword, :userEmail, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)');
             $stmt->bindParam(':userName', $_POST['username']);
             $stmt->bindParam(':userPassword', $hashedPassword);
             $stmt->bindParam(':userEmail', $_POST['email']);
+            $stmt->bindParam('',);
             //$stmt->bindParam(':registerPassword', $registerPasswordEncrypted);
             $stmt->execute();
 
