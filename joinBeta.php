@@ -294,6 +294,7 @@ if (isset($_POST['isSent']) && $_POST['isSent'] == 'yes') {//check if form has b
                         <!-- Button -->
                         <div>
                             <button class="btn btn-success">Dołacz do bety</button>
+                            <a href="http://beta.lawniczak.me" class="btn btn-success">Powrót</button>
                         </div>
                     </div>
                 </fieldset>
