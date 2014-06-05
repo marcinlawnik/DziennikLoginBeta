@@ -1,3 +1,9 @@
+<?php 
+header("HTTP/1.1 301 Moved Permanently"); 
+header("Location: http://dl.lawniczak.me"); 
+exit();
+?>
+
 <?php
 require 'bcryptWrapper.php';
 require 'config.local.php';
