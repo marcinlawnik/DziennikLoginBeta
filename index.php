@@ -1,3 +1,9 @@
+<?php 
+header("HTTP/1.1 301 Moved Permanently"); 
+header("Location: http://dl.lawniczak.me"); 
+exit();
+?>
+<!---
 <!doctype html>
 <html lang="pl"><head>
         <meta charset="utf-8">
@@ -6,6 +12,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
         <!-- Le styles -->
+        <!--
         <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" media="screen">
         <style type="text/css">
             body {
@@ -84,7 +91,7 @@
 
                 </div>
             </div>-->
-
+            <!--
             <div class="footer">
                 <p>© Marcin Ławniczak 2013</p>
             </div>
@@ -92,4 +99,4 @@
         </div> <!-- /container -->
 
     
-</body></html>
+<!--</body></html>-->
